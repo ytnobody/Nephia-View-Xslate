@@ -8,7 +8,8 @@ our @EXPORT = qw( test_config );
 sub test_config () {
     +{
         view => {
-            include_path => [ 't/nephia-test_app/view' ],
+            class => 'Xslate',
+            path => [ 't/nephia-test_app/view' ],
         },
     };
 }

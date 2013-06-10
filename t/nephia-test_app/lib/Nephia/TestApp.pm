@@ -4,13 +4,13 @@ use warnings;
 use Nephia;
 use utf8;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 my $item = 'ひのきのぼう';
 
 path '/' => sub {
     return {
-        template => 'index.html',
+        template => 'index.tx',
         title => 'Nephia::TestApp',
     };
 };
@@ -44,7 +44,7 @@ path '/configtest' => sub {
 
 path '/nihongo' => sub {
     return {
-        template => 'index.html',
+        template => 'index.tx',
         title => '日本語であそぼ',
     };
 };

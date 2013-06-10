@@ -7,7 +7,7 @@ use File::Spec;
 sub index_template_file {
     my $self = shift;
     my $body = $self->templates->{index_template_file};
-    my $file = File::Spec->catfile($self->approot, qw/view index.tt/);
+    my $file = File::Spec->catfile($self->approot, qw/view index.tx/);
     $self->spew($file, $body);
 }
 

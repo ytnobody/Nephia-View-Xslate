@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::Request::Common" : "0",
             "Nephia" : "0",
             "Text::Xslate" : "0",
             "perl" : "5.008005"
@@ -54,5 +55,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/Nephia-View-Xslate/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/Nephia-View-Xslate",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/Nephia-View-Xslate.git",
+         "web" : "https://github.com/ytnobody/Nephia-View-Xslate"
+      }
+   },
    "version" : "0.01"
 }

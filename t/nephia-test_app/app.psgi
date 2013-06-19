@@ -1,9 +1,14 @@
 use strict;
 use warnings;
 use FindBin;
+use Plack::Builder;
 
 use lib ("$FindBin::Bin/lib", "$FindBin::Bin/extlib/lib/perl5");
 use Nephia::TestApp;
-Nephia::TestApp->run(view => {
-    class => 'Xslate',
-});
+builder {
+    enable 'ContentLength';
+    Nephia::TestApp->run(view => {
+        class => 'Xslate',
+        path => [ 't/nephia-test_app/view' ],
+    });
+};

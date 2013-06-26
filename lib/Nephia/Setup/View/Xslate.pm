@@ -33,8 +33,6 @@ use strict;
 use warnings;
 use Nephia;
 
-# our $VERSION = 	;
-
 path '/' => sub {
     my $req = shift;
     return {

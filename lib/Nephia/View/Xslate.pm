@@ -3,7 +3,7 @@ use 5.008005;
 use strict;
 use warnings;
 use Text::Xslate;
-our $VERSION = "	";
+our $VERSION = 0.04;
 
 sub new {
     my ( $class, %opts ) = @_;

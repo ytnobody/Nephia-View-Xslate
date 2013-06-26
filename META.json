@@ -4,7 +4,7 @@
       "ytnobody / satoshi azuma <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.4.9, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -66,5 +66,5 @@
          "web" : "https://github.com/ytnobody/Nephia-View-Xslate"
       }
    },
-   "version" : "0.02"
+   "version" : "0"
 }

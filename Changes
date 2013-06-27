@@ -2,6 +2,9 @@ Revision history for Perl extension Nephia-View-Xslate
 
 {{$NEXT}}
 
+0.05 2013-06-27T07:17:15Z
+    - become isn't "Nephia::Setup::Base"
+
 0.04 2013-06-26T15:43:48Z
     - compliant to meta template
 

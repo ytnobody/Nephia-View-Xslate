@@ -77,6 +77,7 @@ cpanfile
 ---
 requires 'Nephia' => '0';
 requires 'Nephia::View::Xslate' => '0';
+requires 'Config::Micro' => '0.02';
 
 on build => sub {
     requires 'Test::More';

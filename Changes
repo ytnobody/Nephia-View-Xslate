@@ -1,6 +1,7 @@
 Revision history for Perl extension Nephia-View-Xslate
 
 {{$NEXT}}
+    - use required_modules trigger
 
 0.05 2013-06-27T07:17:15Z
     - become isn't "Nephia::Setup::Base"

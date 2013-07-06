@@ -4,7 +4,7 @@
       "ytnobody / satoshi azuma <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.5, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],
@@ -57,16 +57,16 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/papix/Nephia-View-Xslate/issues"
+         "web" : "https://github.com/ytnobody/Nephia-View-Xslate/issues"
       },
-      "homepage" : "https://github.com/papix/Nephia-View-Xslate",
+      "homepage" : "https://github.com/ytnobody/Nephia-View-Xslate",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/papix/Nephia-View-Xslate.git",
-         "web" : "https://github.com/papix/Nephia-View-Xslate"
+         "url" : "git://github.com/ytnobody/Nephia-View-Xslate.git",
+         "web" : "https://github.com/ytnobody/Nephia-View-Xslate"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_contributors" : [
       "papix <mail@papix.net>"
    ]

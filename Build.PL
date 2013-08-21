@@ -23,8 +23,8 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Nephia-View-Xslate',
-    module_name     => 'Nephia::View::Xslate',
+    name            => 'PrimalNephia-View-Xslate',
+    module_name     => 'PrimalNephia::View::Xslate',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],

@@ -1,4 +1,4 @@
-package Nephia::Setup::View::Xslate;
+package PrimalNephia::Setup::View::Xslate;
 use strict;
 use warnings;
 use File::Spec;
@@ -21,7 +21,7 @@ sub index_template_file {
 }
 
 sub required_modules {
-    'Nephia::View::Xslate' => '0',
+    'PrimalNephia::View::Xslate' => '0',
 }
 
 1;
@@ -33,7 +33,7 @@ app_class_file
 package $appname;
 use strict;
 use warnings;
-use Nephia;
+use PrimalNephia;
 
 path '/' => sub {
     my $req = shift;
@@ -57,7 +57,7 @@ $appname - Web Application
 
 :::head1 DESCRIPTION
 
-$appname is web application based Nephia.
+$appname is web application based PrimalNephia.
 
 :::head1 AUTHOR
 
@@ -65,9 +65,9 @@ clever guy
 
 :::head1 SEE ALSO
 
-Nephia
+PrimalNephia
 
-Nephia::View::Xslate
+PrimalNephia::View::Xslate
 
 :::head1 LICENSE
 

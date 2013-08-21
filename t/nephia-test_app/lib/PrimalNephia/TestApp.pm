@@ -1,7 +1,7 @@
-package Nephia::TestApp;
+package PrimalNephia::TestApp;
 use strict;
 use warnings;
-use Nephia;
+use PrimalNephia;
 use utf8;
 
 our $VERSION = 0.06;
@@ -11,7 +11,7 @@ my $item = 'ひのきのぼう';
 path '/' => sub {
     return {
         template => 'index.tx',
-        title => 'Nephia::TestApp',
+        title => 'PrimalNephia::TestApp',
     };
 };
 
@@ -85,7 +85,7 @@ __END__
 
 =head1 NAME
 
-Nephia-TestApp - Test Web Application for Nephia
+PrimalNephia-TestApp - Test Web Application for PrimalNephia
 
 =head1 SYNOPSIS
 
@@ -93,7 +93,7 @@ Nephia-TestApp - Test Web Application for Nephia
 
 =head1 DESCRIPTION
 
-Nephia::TestApp is web application based Nephia.
+PrimalNephia::TestApp is web application based PrimalNephia.
 
 =head1 AUTHOR
 
@@ -101,7 +101,7 @@ ytnobody
 
 =head1 SEE ALSO
 
-Nephia
+PrimalNephia
 
 =head1 LICENSE
 

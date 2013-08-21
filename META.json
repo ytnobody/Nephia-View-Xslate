@@ -1,5 +1,5 @@
 {
-   "abstract" : "Template for Nephia",
+   "abstract" : "Template for PrimalNephia",
    "author" : [
       "ytnobody / satoshi azuma <ytnobody@gmail.com>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Nephia-View-Xslate",
+   "name" : "PrimalNephia-View-Xslate",
    "no_index" : {
       "directory" : [
          "t",
@@ -43,7 +43,7 @@
       "runtime" : {
          "requires" : {
             "HTTP::Request::Common" : "0",
-            "Nephia" : "0",
+            "PrimalNephia" : "0",
             "Text::Xslate" : "0",
             "perl" : "5.008005"
          }
@@ -57,13 +57,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-View-Xslate/issues"
+         "web" : "https://github.com/ytnobody/PrimalNephia-View-Xslate/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-View-Xslate",
+      "homepage" : "https://github.com/ytnobody/PrimalNephia-View-Xslate",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-View-Xslate.git",
-         "web" : "https://github.com/ytnobody/Nephia-View-Xslate"
+         "url" : "git://github.com/ytnobody/PrimalNephia-View-Xslate.git",
+         "web" : "https://github.com/ytnobody/PrimalNephia-View-Xslate"
       }
    },
    "version" : "0.06",

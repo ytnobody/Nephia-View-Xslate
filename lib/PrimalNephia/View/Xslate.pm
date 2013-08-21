@@ -1,4 +1,4 @@
-package Nephia::View::Xslate;
+package PrimalNephia::View::Xslate;
 use 5.008005;
 use strict;
 use warnings;
@@ -19,7 +19,7 @@ __END__
 
 =head1 NAME
 
-Nephia::View::Xslate - Template for Nephia
+PrimalNephia::View::Xslate - Template for PrimalNephia
 
 =head1 SYNOPSIS
 
@@ -34,11 +34,11 @@ Nephia::View::Xslate - Template for Nephia
 
 =head1 DESCRIPTION
 
-Nephia::View::Xslate is view class for Nephia. It provides template feature as Text::Xslate.
+PrimalNephia::View::Xslate is view class for PrimalNephia. It provides template feature as Text::Xslate.
 
 =head1 USING SETUP
 
-    nephia-setup Your::AppName --flavor View::Xslate
+    primalnephia-setup Your::AppName --flavor View::Xslate
 
 =head1 LICENSE
 

@@ -1,5 +1,5 @@
 requires 'perl'                 , '5.008001';
-requires 'Nephia'               , '0';
+requires 'PrimalNephia'               , '0';
 requires 'Text::Xslate'         , '0';
 requires 'HTTP::Request::Common', '0';
 

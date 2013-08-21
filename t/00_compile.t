@@ -2,7 +2,7 @@ use strict;
 use Test::More;
 
 use_ok $_ for qw(
-    Nephia::View::Xslate
+    PrimalNephia::View::Xslate
 );
 
 done_testing;

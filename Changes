@@ -1,4 +1,4 @@
-Revision history for Perl extension Nephia-View-Xslate
+Revision history for Perl extension PrimalNephia-View-Xslate
 
 {{$NEXT}}
 
@@ -6,13 +6,13 @@ Revision history for Perl extension Nephia-View-Xslate
     - use required_modules trigger
 
 0.05 2013-06-27T07:17:15Z
-    - become isn't "Nephia::Setup::Base"
+    - become isn't "PrimalNephia::Setup::Base"
 
 0.04 2013-06-26T15:43:48Z
     - compliant to meta template
 
 0.03 2013-06-19T08:07:22Z
-    - fix test for Nephia-0.13
+    - fix test for PrimalNephia-0.13
 
 0.02 2013-06-10T12:05:38Z
     - bug fix - 0.01 does not work...

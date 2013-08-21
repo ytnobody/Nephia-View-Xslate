@@ -1,6 +1,6 @@
 # NAME
 
-Nephia::View::Xslate - Template for Nephia
+PrimalNephia::View::Xslate - Template for PrimalNephia
 
 # SYNOPSIS
 
@@ -15,11 +15,11 @@ Nephia::View::Xslate - Template for Nephia
 
 # DESCRIPTION
 
-Nephia::View::Xslate is view class for Nephia. It provides template feature as Text::Xslate.
+PrimalNephia::View::Xslate is view class for PrimalNephia. It provides template feature as Text::Xslate.
 
 # USING SETUP
 
-    nephia-setup Your::AppName --flavor View::Xslate
+    primalnephia-setup Your::AppName --flavor View::Xslate
 
 # LICENSE
 
